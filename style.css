@@ -340,7 +340,12 @@ ol{
     #id1{
         margin-top: 2%;
     }
-  
+    #pil{
+        margin-top: 3.5px;
+    }
+    #table{
+        margin-top: 3%;
+    }
     
     #tresc{
         position: absolute;
@@ -564,7 +569,8 @@ ol{
 #menu{
     width: 60%;
     height: 36%;
-    margin-left: 20%;
+    margin-left: 19%;
+    margin-right: 19%;
     border: honeydew 5px solid;
     background-color: #4682B4;
     margin-top: -20px;
@@ -612,8 +618,9 @@ ol{
     margin-right: 25%;
 }
 #pilkarze{
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
@@ -622,10 +629,10 @@ ol{
     border: honeydew 5px solid;
     background-color: #E0FFFF;
     border-radius: 15px;
-    float: initial;
-    width: auto;
+    
 }
 #inne1{
+    width: 80%;
     margin-left: 9%;
     margin-right: 9%;
     padding-top: 15px;
@@ -639,6 +646,7 @@ ol{
     
 }
 #inne2{
+    width: 80%;
     margin-left: 9%;
     margin-right: 9%;
     padding-top: 15px;
@@ -652,6 +660,7 @@ ol{
     
 }
 #inne3{
+    width: 80%;
     margin-left: 9%;
     margin-right: 9%;
     padding-top: 15px;
@@ -693,7 +702,7 @@ ol{
     margin-left: 10px;
     color: #4682B4;
     margin-right: 10px;
-    top: 140%;
+    top: 142%;
     text-align: center;
     font-size: 30px;
     font-family: Comic Sans MS;
@@ -707,5 +716,21 @@ a{
 }
 #span{
     font-size: 20px;
+}
+}
+@media screen and (max-width: 430px){
+#div{
+    margin-left: 7% ;
+    margin-right: 7%;
+    text-align: center;
+}
+#menu{
+    width: 60%;
+    height: 40%;
+    margin-left: 19%;
+    margin-right: 19%;
+    border: honeydew 5px solid;
+    background-color: #4682B4;
+    margin-top: -20px;
 }
 }
