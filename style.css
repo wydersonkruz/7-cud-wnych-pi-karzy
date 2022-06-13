@@ -1,9 +1,12 @@
 body{
     background-color: #4682B4;
 }
-#gora{
-    display: none;
+#container{
+    
+    height: auto;
+    width: auto;
 }
+
 
 iframe{
     
@@ -699,10 +702,12 @@ ol{
 
 #stopka{
     position: absolute;
-    margin-left: 10px;
+    margin-left: 5%;
     color: #4682B4;
-    margin-right: 10px;
+    margin-right: 5%;
     top: 142%;
+    height: 7%;
+    width: 87%;
     text-align: center;
     font-size: 30px;
     font-family: Comic Sans MS;
@@ -717,6 +722,11 @@ a{
 #span{
     font-size: 20px;
 }
+}
+@media screen and (max-width: 730px){
+   #menu{
+       height: 40%;
+   }
 }
 @media screen and (max-width: 430px){
 #div{
@@ -733,4 +743,8 @@ a{
     background-color: #4682B4;
     margin-top: -20px;
 }
+#stopka{
+    font-size: 25px;
 }
+}
+
